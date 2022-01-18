@@ -1,0 +1,460 @@
+@font-face {
+    font-family: Maiandra-GD ;
+    src: url(../fonts/maiandra\ gd\ regular.ttf);
+}
+@font-face {
+    font-family: Freeh521;
+    src: url(../fonts/Freeh521.ttf);
+}
+/* font-family: Maiandra-GD */
+/* font-family: Freeh521; */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 1110px;
+    margin: 0 auto;
+}
+.inline-block{
+    display: inline-block;
+}
+.float-right{
+    float: right;
+}
+.float-left{
+    float: left;
+}
+.opacity-20{
+    opacity: 0.2;
+}
+/* ------header-------- */
+.header{
+    padding: 30px;
+    background-color: #F2F1EB;
+}
+.logo{
+    width: 30%;
+    font-family: Freeh521;
+    vertical-align: middle;
+}
+.logo a{
+    color: #151C1C;
+    text-decoration: none;
+    font-size: 35pt;
+}
+header img{
+    width: 15%;
+}
+.nav{
+    width: 70%;
+    margin-left: -10px;
+    vertical-align: middle
+}
+.nav ul{
+    list-style: none;
+    text-align: right;
+}
+.nav li{
+    display: inline-block;
+}
+.nav li a{
+    font-family: Maiandra-GD;
+    font-size: 15.5pt;
+    font-weight: bold;
+    color: #151C1C;
+    text-decoration: none;
+    margin-left: 40px;
+}
+/* ------end-header-------- */
+/* ------section1-------- */
+.section-1{
+    margin-top: 80px;   
+}
+.sec1-block1{
+    width: 35%;
+    overflow: hidden;
+}
+.sec1-block1 img{
+    height: 100%;
+}
+.sec1-block2{
+    width: 15%;
+    padding-left: 47px;
+    font-family: Maiandra-GD;
+}
+.sec1-block2 p{
+    font-size: 10pt;
+    margin-bottom: 350.7px;
+}
+.sec1-block2 a{
+    font-size: 15pt;
+    margin-bottom: 5px;
+    color: #151C1C;
+    text-decoration: none;
+}
+.sec1-block3{
+    width: 50%;
+    padding-left: 58px;
+    font-family: Maiandra-GD;
+    margin-left: -10px;
+}
+.sec1-block3 p{
+    font-size: 10pt;
+    margin-bottom: 146px;  
+}
+/* ------end-section1-------- */
+/* ------section2-------- */
+.section-2{
+    margin-top: 80px;
+    background-color: rgba(51,78,78,0.2);
+    padding-bottom: 25px;
+}
+.center{
+    text-align: center;
+}
+.sec2-block1{
+    width: 20%;
+    vertical-align: middle;
+    padding-bottom: 60px;
+}
+.sec2-block2{
+    width: 60%;
+    margin-left: -8px;
+    padding-bottom: 30px;
+    vertical-align: middle;
+}
+.sec2-block2 h1{
+    font-family: Freeh521;
+    font-size: 35pt;
+    text-align: center;
+    font-weight: normal;
+}
+.sec2-block2 p{
+    font-family: Maiandra-GD;
+    font-size: 23pt;
+}
+.sec2-block3{
+    width: 20%;
+    margin-left: -5px;
+    vertical-align: middle;
+}
+/* ------end-section2-------- */
+/* ------section3-------- */
+.section-3{
+    margin-top: 75px;
+}
+/* -chapter1- */
+.chapter1{
+    margin-bottom: 0px;     
+}
+.chap1-block1{
+    margin: 0;
+}
+.chap1-block1 h2{
+    font-size: 23pt;
+    font-weight: normal;
+    font-family: Maiandra-GD;
+}
+.chap1-block1 p{
+    width: 77.6%;
+    margin-top: 30px;
+    margin-bottom: 60px;
+    font-size: 10pt;
+    font-family: Maiandra-GD;
+}
+.end{
+    font-family: Freeh521;
+    font-size: 26pt;
+    text-align: right;
+}
+.chap1-block1 div{
+    margin-left: -5px;
+    width: 22.4%;
+}
+.chap1-block2{
+    width: 77.6%;
+}
+.search-box{
+    width: 50%;
+    border: solid #151C1C 1pt;
+    padding: 29.5px 23px;
+    text-align: right;
+    font-size: 10pt;
+    font-family: Maiandra-GD;
+    vertical-align: middle;
+}
+.icon{
+    padding-left: 23px;
+    vertical-align: middle;
+    margin-top: 5px;
+}
+.clear{
+    clear: both;
+}
+.chap1-block2 a{
+    font-family: Maiandra-GD;
+    font-size: 15pt;
+    color: #151C1C;
+    text-decoration: none;
+}
+/* -chapter2- */
+.chapter2{
+    margin-top: 50px;
+}
+.chapter2 h2{
+    font-size: 23pt;
+    font-weight: normal;
+    font-family: Maiandra-GD;
+}
+.chap2-block1{
+    width: 52%;
+    margin-top: 30px;
+    vertical-align: top;
+}
+.chap2-block2{
+    width: 48%;
+    margin-left: -5px;
+    margin-top: 30px;
+    vertical-align: top;
+}
+.box{
+    background-color: #f7f8f8;
+    padding: 60px 115px;
+    border-radius: 132.9px;
+    width: 100%;
+}
+.box ul{
+    line-height: 250%;
+}
+.box ul li{
+    font-size: 10pt;
+    font-family: Maiandra-GD;
+}
+.box a{
+    font-family: Maiandra-GD;
+    font-size: 15pt;
+    color: #151C1C;
+    text-decoration: none;
+}
+/* ------end-section3-------- */
+/* ------section4-------- */
+.section-4{
+    background-color: #F2F1EB;
+    margin-top: 75px;
+}
+.chapter3{
+    margin-top: 75px;
+}
+.chapter3 h2{
+    font-size: 23pt;
+    font-weight: normal;
+    font-family: Maiandra-GD;
+}
+.dr-rabbit{
+    color: #207280;
+    font-weight: bold;
+}
+.chap3-block1{
+    margin: 0;
+}
+.chap3-block1 p{
+    width: 60%;
+    margin-top: 30px;
+    margin-bottom: 200px;
+    font-size: 10pt;
+    font-family: Maiandra-GD;
+    vertical-align: top;
+}
+.chap3-block1 div{
+    width: 40%;
+    margin-left: -8px;
+    margin-top: 8px;
+    padding-left: 215px;
+    vertical-align: top;
+}
+.chap3-block2{
+    width: 90%;  
+}
+.chap3-block2 a{
+    font-family: Maiandra-GD;
+    font-size: 15pt;
+    color: #151C1C;
+    text-decoration: none;
+}
+.chap3-block2 p{
+    font-size: 10pt;
+    font-family: Maiandra-GD;
+    color: #FFFFFF;
+    margin-top: 40px;
+}
+.chap3-block3{
+    width: 10%;
+    margin: 0;
+    margin-left: -5px;
+    margin-bottom: 120px;
+}
+.white-div{
+    background-color: white;
+    width: 475px;
+}
+/* ------end-section4-------- */
+/* ------section5-------- */
+.section-5{
+    margin-top: -39.35px;
+}
+.link-page-chap3{
+    width: 475px;
+    background-color: rgba(51,78,78,0.2);
+}
+.link-page-chap3 img{
+    width: 475px;
+}
+.link-page-chap3 p{
+    font-size: 12.5pt;
+    font-family: Maiandra-GD;
+    padding: 5px 170px 30px 170px;
+}
+.fnt-sz-23{
+    font-size: 23pt;
+}
+/* ------end-section5-------- */
+/* ------section6-------- */
+.section-6{
+    margin-top: 75px;
+    font-family: Maiandra-GD;
+}
+.sec6-block1{
+    margin-bottom: 30px;
+}
+.sec6-block1 h2{
+    width:75%;
+    font-size: 23pt;
+    font-weight: normal;
+}
+.sec6-block1 img{
+    margin-right: 150px;
+}
+.sec6-block2{
+    background-color: #f7f8f8;
+    padding: 100px 80px 100px 190px;
+    border-radius: 105px;
+}
+.sec6-block2 h3{
+    font-size: 38pt;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+/* ------end-section6-------- */
+/* ------section7-------- */
+.section-7{
+    background-color: rgba(51,78,78,0.2);
+    margin-top: 80px;
+    font-family: Maiandra-GD;
+}
+.sec7-block1{
+    padding-top: 65px;
+    padding-bottom: 65px;
+}
+.sec7-block1 h2{
+    font-size: 23pt;
+    font-weight: normal;
+    text-align: center;
+}
+/* ------end-section7-------- */
+/* ------section8-------- */
+.section-8{
+    margin: 0;
+}
+.sec8-block1{
+    background-color: #F2F1EB;
+    padding-bottom: 80px;
+}
+.sec8-block1 img{
+    margin-top: -143px;
+}
+.sec8-block2{
+    background-color: #F2F1EB;
+    padding-bottom: 65px;
+}
+.sec8-block2 img{
+    margin-top: 40px;
+    margin-right: 30px;
+}
+.sec8-block3{
+    background-color: #F2F1EB;
+    padding: 0px 120px;
+}
+.info{
+    width: 20%;
+    padding:0;
+    vertical-align: top;
+}
+.info ul{
+    line-height: 150%;
+    list-style: none;
+}
+.info ul li{
+    font-size: 10pt;
+    font-family: Maiandra-GD;
+}
+.info p{
+    color: white;
+    font-size: 10pt;
+    margin-top: 269px;
+    margin-left: 5px;
+}
+.tag{
+    width: 33%;
+    padding: 0;
+    margin-left: -5px;
+    vertical-align: top;
+}
+.tag ul{
+    line-height: 150%;
+    list-style: none;
+    margin-bottom: 40px;
+}
+.tag ul li{
+    font-size: 10pt;
+    font-family: Maiandra-GD;
+}
+.sec8-block3 p{
+    width: 47%;
+    padding: 0;
+    margin-left: -5px;
+    font-size: 10pt;
+    font-family: Maiandra-GD;
+    vertical-align: top;
+}
+.sec8-block4{
+    background-color: #F2F1EB;
+}
+.sec8-block4 img{
+    margin-top: -100px;
+    margin-bottom: -60px;
+}
+/* ------end-section8-------- */
+/* ------section9-------- */
+.section-9{
+    background-color: #f7f8f8;
+    padding: 17px;
+    margin-top: 80px;
+}
+.section-9 p{
+    font-size: 10pt;
+    font-family: Maiandra-GD;
+    text-align: center;
+}
+/* ------end-section9-------- */
+/* ------section10-------- */
+.section-10{
+    padding: 30px;
+    margin-top: 0px;
+}
+.section-10 p{
+    font-family: Freeh521;
+    font-size: 35pt;
+    text-align: center;
+}
